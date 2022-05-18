@@ -20,6 +20,19 @@ ul{
     flex-direction: column;
 }
 
+.chat{
+padding: 10%;
+}
+
+h4{
+    background-color: #A491D2;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
 li{
     border: 2px;
     border-style: groove;
@@ -27,6 +40,11 @@ li{
     list-style:none;
     display: flex;
     justify-content: space-around;
+}
+
+.status{
+    padding-top: 5px;
+    flex-wrap: wrap;
 }
 
 .profile{

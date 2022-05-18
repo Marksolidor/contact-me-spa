@@ -25,6 +25,8 @@ li{
     border-style: groove;
     border-color: #BEC1BB;
     list-style:none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .profile{

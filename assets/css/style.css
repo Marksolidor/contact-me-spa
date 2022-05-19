@@ -40,8 +40,16 @@ h5{
     color: #1b1f21
 }
 
+i{
+    color: #BEC1BB;
+}
+
 p{
     color: #444749
+}
+
+.message{
+    font-size: 12px;
 }
 
 li{
@@ -58,6 +66,11 @@ li{
 .status{
     align-items: flex-end;
     flex-wrap: wrap;
+}
+
+.main_profile{
+    border-radius: 100%;
+    width: 20%;
 }
 
 .profile{

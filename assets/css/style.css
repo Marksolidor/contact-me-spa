@@ -7,7 +7,91 @@
     display: flex;
 }
 
+.menu{
+    background-color: #fff;
+    min-height: 100vh;
+    width: 20%;
+}
+
 ul{
     display: flex;
     flex-direction: column;
+}
+
+.chat{
+padding: 10%;
+}
+
+.active{
+    font-size: 10px;
+    color: #BEC1BB;
+}
+
+h4{
+    background-color: #A491D2;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+h5{
+    color: #1b1f21
+}
+
+i{
+    color: #BEC1BB;
+}
+
+p{
+    color: #444749
+}
+
+.message{
+    font-size: 12px;
+}
+
+li{
+    border: 2px;
+    border-style: solid;
+    border-color: #BEC1BB;
+    padding: 1.5%;
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.status{
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.main_profile{
+    border-radius: 100%;
+    width: 20%;
+}
+
+.profile{
+    border-radius: 100%;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+}
+.box{
+    width: 20%;
+    max-width: 100%;
+    padding: 2.5%;
+}
+
+img{
+ width: 50%;
 }

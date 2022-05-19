@@ -22,6 +22,11 @@ ul{
 padding: 8%;
 }
 
+.active{
+    font-size: 10px;
+    color: #BEC1BB;
+}
+
 h4{
     background-color: #A491D2;
     color: white;
@@ -31,6 +36,14 @@ h4{
     padding-right: 35px;
 }
 
+h5{
+    color: #1b1f21
+}
+
+p{
+    color: #444749
+}
+
 li{
     border: 2px;
     border-style: solid;
@@ -38,12 +51,12 @@ li{
     padding: 1.5%;
     list-style:none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .status{
-    padding-top: 5px;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
@@ -66,5 +79,5 @@ a {
 }
 
 img{
-    max-width: 100%;
+ width: 50%;
 }

@@ -1,97 +1,104 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .board {
-    display: flex;
+  display: flex;
 }
 
-.menu{
-    background-color: #fff;
-    min-height: 100vh;
-    width: 20%;
+.menu {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 20%;
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
+ul {
+  display: flex;
+  flex-direction: column;
 }
 
-.chat{
-padding: 10%;
+.chat {
+  padding: 10%;
 }
 
-.active{
-    font-size: 10px;
-    color: #BEC1BB;
+.active {
+  font-size: 10px;
+  color: #bec1bb;
 }
 
-h4{
-    background-color: #A491D2;
-    color: white;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 35px;
-    padding-right: 35px;
+h4 {
+  background-color: #a491d2;
+  color: white;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
-h5{
-    color: #1b1f21
+h5 {
+  color: #1b1f21;
+  font-size: 14px;
 }
 
-i{
-    color: #BEC1BB;
+i {
+  color: #bec1bb;
 }
 
-p{
-    color: #444749
+p {
+  color: #444749;
 }
 
-.message{
-    font-size: 12px;
+.message {
+  font-size: 12px;
 }
 
-li{
-    border: 2px;
-    border-style: solid;
-    border-color: #BEC1BB;
-    padding: 1.5%;
-    list-style:none;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
+li {
+  border: 2px;
+  border-style: solid;
+  border-color: #bec1bb;
+  padding: 1.5%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.status{
-    align-items: flex-end;
-    flex-wrap: wrap;
+.status {
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
-.main_profile{
-    border-radius: 100%;
-    width: 20%;
+.main_profile {
+  border-radius: 100%;
+  width: 20%;
 }
 
-.profile{
-    border-radius: 100%;
-    width: 25%;
+.profile {
+  border-radius: 100%;
+  width: 25%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
+b {
+  color: black;
 }
 
-.logo{
- max-width: 30%;
- margin: 0;
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #e8ebe4;
+}
+
+.logo {
+  max-width: 18%;
+  margin: 0;
 }

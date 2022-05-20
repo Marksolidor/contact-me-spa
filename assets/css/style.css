@@ -83,12 +83,17 @@ a {
     text-decoration: none;
 }
 
+b{
+    color: black;
+}
+
 .main{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    background-color: #E8EBE4;
 }
 
 .logo{

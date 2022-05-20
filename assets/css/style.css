@@ -85,13 +85,13 @@ a {
 
 .main{
     display: flex;
-}
-.box{
-    width: 20%;
-    max-width: 100%;
-    padding: 2.5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-img{
- width: 50%;
+.logo{
+ max-width: 30%;
+ margin: 0;
 }

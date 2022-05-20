@@ -87,14 +87,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.box{
-    width: 50%;
-    max-width: 100%;
-    padding: 2.5%;
+    flex-direction: column;
+    width: 100%;
 }
 
 .logo{
- width: 50%;
- justify-content: end;
+ max-width: 30%;
+ margin: 0;
 }
